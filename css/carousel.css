@@ -23,11 +23,11 @@ body {
 /* CUSTOMIZE THE ITEMS
 -------------------------------------------------- */
 #carousel-item-1 {
-    background-image: url("../assets/general/pakkerij.jpg");
+    background-image: url("http://dirkkoelewijn.com/img-lamper/general/pakkerij.jpg");
 }
 
 #carousel-item-2 {
-    background-image: url("../assets/lamper_group/lamper-escalation-night.jpg");
+    background-image: url("http://dirkkoelewijn.com/img-lamper/lamper_group/lamper-escalation-night.jpg");
 }
 
 /* CUSTOMIZE THE CAROUSEL
