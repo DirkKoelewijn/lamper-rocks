@@ -52,6 +52,11 @@ body {
     background-size: cover, contain;
 }
 
+.carousel-caption h1 {
+    text-shadow: #333 0 0 2px;
+    color: inherit;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 

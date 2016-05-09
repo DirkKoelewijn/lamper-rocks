@@ -1,13 +1,54 @@
 body {
-    font-family: Exo, sans-serif;
-    font-weight: 400;
-    background-color: darkgray;
+    background-color: #333;
+    color: lightgray;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: Exo, sans-serif;
+    font-weight: 400;
     color: rgb(188, 31, 82);
 }
 
 h1 {
     font-weight: 700;
+}
+
+p a {
+    font-style: italic;
+    color: rgb(188, 31, 82);
+}
+
+.navbar {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.navbar-brand {
+    color: rgb(188, 31, 82) !important;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar-inverse .navbar-nav > a {
+    font-family: Exo, sans-serif !important;
+    font-weight: 600;
+    font-size: 21px;
+    color: #777;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    color: rgb(188, 31, 82);
+}
+
+.btn-primary {
+    background-color: rgb(188, 31, 82);
+    border-color: rgb(188, 31, 82);
+    font-style: normal;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: white;
+    color: rgb(188, 31, 82);
 }
