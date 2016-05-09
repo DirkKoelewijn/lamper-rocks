@@ -23,11 +23,11 @@ body {
 /* CUSTOMIZE THE ITEMS
 -------------------------------------------------- */
 #carousel-item-1 {
-    background-image: url("../assets/pakkerij.jpg");
+    background-image: url("../assets/general/pakkerij.jpg");
 }
 
 #carousel-item-2 {
-    background-image: url("../assets/lamper.jpg");
+    background-image: url("../assets/lamper_group/lamper-escalation-night.jpg");
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -47,8 +47,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
     height: 500px;
-    background-color: #777;
-    background-position: center;
+    background: #777 center;
     background-size: cover, contain;
 }
 
@@ -62,9 +61,15 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.marketing .col-lg-6 {
     margin-bottom: 20px;
     text-align: center;
 }
+
 .marketing h2 {
     font-weight: normal;
 }
@@ -86,6 +91,22 @@ body {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+.featurette-title {
+    text-align: center;
+    margin: 50px;
+}
+
+/* Images
+------------------------- */
+.photo-circle {
+    width: 200px;
+    height: 200px;
+}
+
+.featurette-image {
+    width: 500px;
 }
 
 

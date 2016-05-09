@@ -1,6 +1,8 @@
 body {
     background-color: #333;
     color: lightgray;
+    font-family: Exo, sans-serif;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,15 +15,14 @@ h1 {
     font-weight: 700;
 }
 
-p a {
-    font-style: italic;
+a, a:hover, a:focus {
     color: rgb(188, 31, 82);
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .navbar {
-    font-family: Exo, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-brand {
@@ -31,9 +32,6 @@ p a {
 }
 
 .navbar-inverse .navbar-nav > a {
-    font-family: Exo, sans-serif !important;
-    font-weight: 600;
-    font-size: 21px;
     color: #777;
 }
 
@@ -47,8 +45,15 @@ p a {
     font-style: normal;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:hover:active, .btn-primary:active, .btn-primary:focus {
     background-color: white;
     border-color: white;
     color: rgb(188, 31, 82);
+}
+
+.subtitle {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: lightgray;
 }
