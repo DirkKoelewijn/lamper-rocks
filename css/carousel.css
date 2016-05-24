@@ -27,7 +27,13 @@ body {
 }
 
 #carousel-item-2 {
-    background-image: url("http://dirkkoelewijn.com/img-lamper/lamper_group/lamper-escalation-night.jpg");
+    background-image: url("../assets/koumans.jpg");
+    background-position: center;
+}
+
+#carousel-item-3 {
+    background-image: url("../assets/uv glow spatter.jpg");
+    background-position: center;
 }
 
 /* CUSTOMIZE THE CAROUSEL
