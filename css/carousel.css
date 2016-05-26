@@ -23,7 +23,7 @@ body {
 /* CUSTOMIZE THE ITEMS
 -------------------------------------------------- */
 #carousel-item-1 {
-    background-image: url("http://dirkkoelewijn.com/img-lamper/general/pakkerij.jpg");
+    background-image: url("../assets/general/pakkerij.jpg");
 }
 
 #carousel-item-2 {
