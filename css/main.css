@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 a, a:hover, a:focus {
@@ -29,7 +29,7 @@ a, a:hover, a:focus {
 .navbar-brand {
     color: rgb(188, 31, 82) !important;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav > a {
