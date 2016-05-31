@@ -1,3 +1,26 @@
+body{
+    font-size: 36px;
+}
+
+@media screen and (min-device-width: 360px) {
+    body{
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-device-width: 720px) {
+    body{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-device-width: 1080px) {
+    body{
+        font-size: 14px;
+    }
+}
+
+
 body {
     background-color: #333;
     color: lightgray;
