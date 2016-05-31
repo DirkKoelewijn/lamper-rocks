@@ -3,6 +3,7 @@ body {
     color: lightgray;
     font-family: Exo, sans-serif;
     font-weight: 300;
+    padding-bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,4 +57,22 @@ a, a:hover, a:focus {
     font-weight: 300;
     font-size: 16px;
     color: lightgray;
+}
+
+.footer {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #222;
+}
+
+.footer .container {
+    width: auto;
+    padding: 0 15px;
+    text-align: center;
+}
+.container .text-muted {
+    margin: 20px 0;
 }
